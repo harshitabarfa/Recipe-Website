@@ -235,6 +235,12 @@ header {
   margin: 6px 0 6px;
 }
 
+@media (max-width: 556px) {
+  .card img{
+    width: 100%;
+  }
+}
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -390,3 +396,4 @@ footer {
   height: 100%;
   border: 0;
 }
+
